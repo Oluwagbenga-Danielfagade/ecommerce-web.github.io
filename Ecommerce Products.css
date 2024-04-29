@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    color:white;
+    text-align: center;
+    margin-top:15px;
+    font-size:30px;
+}
+.products{
+    height:1000px;
+    width:100%;
+    background-color: rgb(196, 42, 42);
+    font-size:21px;
+    font-weight:200;
+    margin-top:60px;
+}
+.products .product1{
+    height:400px;
+    width:420px;
+    background-color: white;
+    font-size:22px;
+    display:inline-block;
+    margin:auto;
+    margin-left:13px;
+    text-align: center;
+    border-radius:12px;
+}
+.products .product1 img{
+    background-color: grey;
+    border-radius:19px;
+    border-style:inset;
+    border-width:2px;
+    border-color:red;
+    margin-top:10px;
+}
+.products .product1 h2{
+    font-size:30px;
+    color:red;
+}
+.products .product1 p{
+    color:brown;
+    font-weight: lighter;
+    margin-top:10px;
+}
+.products .product1 button{
+    background-color:brown;
+    color:white;
+    text-shadow:0 0 38px white;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius:18px;
+    border-style:solid;
+    border-color:brown;
+    margin-top:15px;
+}
+.products .product1 button:hover{
+    background-color:gold;
+    color:rgba(255, 255, 255, 0.774);
+}
+#cart{
+    background-color: white;
+    border-radius: 18px;
+    scroll-behavior: smooth;
+    height:400px;
+    width:300px;
+    border:none;
+    margin:70px;
+}
+#cart button{
+    background-color:brown;
+    color:white;
+    text-shadow:0 0 38px white;
+    padding:10px;
+    font-size:13px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius:6px;
+    border-style:solid;
+    border-color:brown;
+    margin-top:15px;
+    margin:auto;
+    display:block;
+    text-align:center;
+}
+.products .product2{
+    height:400px;
+    width:420px;
+    background-color: white;
+    font-size:22px;
+    display:inline-block;
+    margin:auto;
+    margin-left:13px;
+    text-align: center;
+    border-radius:12px;
+    margin-top:20px;
+}
+.products .product2 img{
+    background-color: grey;
+    border-radius:19px;
+    border-style:inset;
+    border-width:2px;
+    border-color:red;
+    margin-top:10px;
+}
+.products .product2 h2{
+    font-size:30px;
+    color:red;
+}
+.products .product2 p{
+    color:brown;
+    font-weight: lighter;
+    margin-top:10px;
+}
+.products .product2 button{
+    background-color:brown;
+    color:white;
+    text-shadow:0 0 38px white;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius:18px;
+    border-style:solid;
+    border-color:brown;
+    margin-top:15px;
+}
+.products .product2 button:hover{
+    background-color:gold;
+    color:rgba(255, 255, 255, 0.774);
+}
+.products .product3{
+    height:400px;
+    width:420px;
+    background-color: white;
+    font-size:22px;
+    display:inline-block;
+    margin:auto;
+    margin-left:13px;
+    text-align: center;
+    border-radius:12px;
+    margin-top:20px;
+}
+.products .product3 img{
+    background-color: grey;
+    border-radius:19px;
+    border-style:inset;
+    border-width:2px;
+    border-color:red;
+    margin-top:10px;
+}
+.products .product3 h2{
+    font-size:30px;
+    color:red;
+}
+.products .product3 p{
+    color:brown;
+    font-weight: lighter;
+    margin-top:10px;
+}
+.products .product3 button{
+    background-color:brown;
+    color:white;
+    text-shadow:0 0 38px white;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius:18px;
+    border-style:solid;
+    border-color:brown;
+    margin-top:15px;
+}
+.products .product3 button:hover{
+    background-color:gold;
+    color:rgba(255, 255, 255, 0.774);
+}
+.products .product4{
+    height:400px;
+    width:420px;
+    background-color: white;
+    font-size:22px;
+    display:inline-block;
+    margin:auto;
+    margin-left:13px;
+    text-align: center;
+    border-radius:12px;
+    margin-top:20px;
+}
+.products .product4 img{
+    background-color: grey;
+    border-radius:19px;
+    border-style:inset;
+    border-width:2px;
+    border-color:red;
+    margin-top:10px;
+}
+.products .product4 h2{
+    font-size:30px;
+    color:red;
+}
+.products .product4 p{
+    color:brown;
+    font-weight: lighter;
+    margin-top:10px;
+}
+.products .product4 button{
+    background-color:brown;
+    color:white;
+    text-shadow:0 0 38px white;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius:18px;
+    border-style:solid;
+    border-color:brown;
+    margin-top:15px;
+}
+.products .product4 button:hover{
+    background-color:gold;
+    color:rgba(255, 255, 255, 0.774);
+}

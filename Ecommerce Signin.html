@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ecommerce Signin.css">
+    <link rel="stylesheet" href="Ecommerce.css">
+    <link rel="stylesheet" href="Ecommerce Loadanimation.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+
+            </div>
+            Cars
+        </header>
+        <nav>
+            <a href="Ecommerce Homepage.html">Home</a>
+            <a href="Ecommerce Products.html">Products</a>
+            <a href="#">Services</a>
+            <a href="" onclick="Aboutus()">About us</a>
+            <button onclick="window()">Contact us</button>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <div class="forms">
+        <h1 style="font-size:23px; color:red">Cars form</h1>
+    <form action="Ecommerce.html" id="Form" method="post">
+        <input type="text" placeholder="Enter your name" id="Name" oninput="capi()">
+        <p id="Error-msg"></p>
+        <input type="text" placeholder="Enter your surname" id="SName" oninput="capi()">
+        <p id="Error-mag"></p>
+        <input type="email" placeholder="Enter your email" id="email" spellcheck="false">
+        <p id="Error-msag"></p>
+        <input type="password" placeholder="Enter your password" id="password" spellcheck="false">
+        <p id="Error-msage"></p>
+        <input type="password" placeholder="Confirm password" id="Confirmpassword" spellcheck="false">
+        <p id="Error-masage"></p>
+        <input type="submit" value="Signin">
+    </form>
+    </div>
+    <script src="Ecommerce Signin.js"></script>
+</body>
+</html>

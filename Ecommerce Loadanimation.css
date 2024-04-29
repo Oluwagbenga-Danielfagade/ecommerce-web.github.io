@@ -1,0 +1,24 @@
+.loader{
+    border:8px solid brown;
+    border-left: 8px solid brown;
+    width:70px;
+    height:70px;
+    animation-name:spin;
+    animation-duration: 2s;
+    animation:linear infinite;
+    position:fixed;
+    top: 50%;
+    bottom:50%;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    z-index:110;
+    display:none;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
